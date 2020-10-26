@@ -1,6 +1,8 @@
 alerts:
   - html: >
-      <b>ALERT!</b><br/>
-      <p>This is a <b>another</b> test alert.</p>.
+      <div class="alert-primary">
+        <b>ALERT!</b><br/>
+        <p>This is a <b>another</b> test alert.</p>.
+      </div>
   - html: >
   - html: >
