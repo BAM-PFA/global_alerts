@@ -1,0 +1,6 @@
+alerts:
+  - html: >
+      <b>ALERT!</b><br/>
+      <a>This is a test alert.</a>.
+  - html: >
+  - html: >
