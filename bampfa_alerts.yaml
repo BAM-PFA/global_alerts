@@ -1,8 +1,11 @@
 alerts:
+  # I think it makes most sense for us to include bootstrap css
+  # here in the html being loaded rather than defining styles
+  # in the global_alerts gem itself or in our blacklight application
   - html: >
-      <div class="alert-primary">
-        <b>ALERT!</b><br/>
-        <p>This is a <b>another</b> test alert.</p>.
+      <div class="alert alert-info">
+        <b>ALERT!</b>
+        <p>This is a <b>another</b> test alert.</p>
       </div>
   - html: >
   - html: >
